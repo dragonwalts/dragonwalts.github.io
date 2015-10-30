@@ -73,6 +73,22 @@
 		console.log ("YoYo");
 	}
 	
+	function checkNumber(input){
+		var check = input > 999 && input < 10000 && input % 1 === 0;
+		if (!check){
+			console.log (input +" is not a 4-digit number.");
+		}
+		return check;
+	}    
+	
+	function getInput(number){
+		return document.getElementById("input"+number).value;	
+	}
+
+	function postResult(result){
+		document.getElementById('output').innerHTML=result;
+	}
+	
 	</script>
 </body>
 </html>
