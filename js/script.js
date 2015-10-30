@@ -4,10 +4,10 @@ function process(){
 	var input = $("#input").val();
 
 	if(input==ans){
-	$(response).html ("Correct!Congratulations!);
+		$(#response).html ("Correct!Congratulations!);
 	}else if (input<ans){
-	($response)html ("Wrong, it is higher.");
+		$(#response)html ("Wrong, it is higher.");
 	}else{
-	$(#response).html ("Wrong, it is lower.");
+		$(#response).html ("Wrong, it is lower.");
 	}
 }
